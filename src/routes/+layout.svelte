@@ -1,12 +1,12 @@
 <nav>
-   <section class="menu-bar">
+    <section class="menu-bar">
     <header class="menu-bar__user-info">
-      <img src="/" alt="" class="menu-bar__user-info--img">
-      <h2 class="menu-bar__user-info--name">user name</h2>
-      <p class="menu-bar__user-info--profession">5 jaar lid</p>
+        <img src="/" alt="" class="menu-bar__user-info--img">
+        <h2 class="menu-bar__user-info--name">user name</h2>
+        <p class="menu-bar__user-info--profession">5 jaar lid</p>
     </header>
     <article class="menu-bar__search">
-       <input type="text" placeholder="Zoek...">
+        <input type="text" placeholder="Zoek...">
     </article>
     <article class="menu-bar__list">
         <ul>
@@ -27,7 +27,7 @@
         </ul>
 
     </article>
-   </section> 
+    </section> 
 </nav>
 
 <slot />
