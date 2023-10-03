@@ -12,7 +12,7 @@
         <ul>
             <li><a href="/Welkom">Welkom</a></li>
             <li><a href="/Leeslijst">Leeslijst</a></li>
-            <li><a href="/Uitleningen-en-verlengen">Uitleningen en verlengen</a></li>
+            <li><a href="/uitleningen-en-verlengen">Uitleningen en verlengen</a></li>
             <li><a href="/Uitleengeschiedenis">Uitleengeschiedenis</a></li>
             <li><a href="/Betaalgeschiedenis">Betaalgeschiedenis</a></li>
             <li><a href="/Reserveringen">Reserveringen</a></li>
