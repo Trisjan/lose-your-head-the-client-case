@@ -11,8 +11,6 @@
 </head>
 <body>
 
-    MIJN OBA
-
     <!-- {#each data.reservations as reservation}
         <blockquote>
             <p>{reservation.userName}</p>
@@ -21,14 +19,25 @@
     {/each} -->
 
 
-    <header> <img src={logo} alt="logo van oba"> </header>
+    <header> 
+        <img src={logo} alt="logo van oba">
+
+        <h1>Betalingen</h1>
+    
+    
+    
+    </header>
 
 
 </body>
 </html>
 
 <style>
-
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap');
+    
+    *{ margin: 0;
+       font-family: poppins;
+    }
 
 
 </style>
