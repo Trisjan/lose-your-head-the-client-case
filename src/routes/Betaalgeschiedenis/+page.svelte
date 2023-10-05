@@ -21,13 +21,53 @@
 
     <header> 
         <img src={logo} alt="logo van oba">
-
         <h1>Betalingen</h1>
-    
-    
-    
     </header>
 
+    <section>
+
+        <table>
+            <tr>
+              <th>DATUM</th>
+              <th>OMSCHRIJVING</th>
+              <th>BEDRAG</th>
+              <th>TYPE</th>
+            </tr>
+            <tr>
+              <td>01/08/2023</td>
+              <td>Maandelijkse kosten jongerenabonnement</td>
+              <td>€25.00</td>
+              <td>Abonnement</td>
+            </tr>
+            <tr>
+                <td>21/07/2023</td>
+                <td>Opwaardering pas</td>
+                <td>€19.99</td>
+                <td>Opwaardering</td>
+              </tr>
+            <tr>
+                <td>21/07/2023</td>
+                <td>Boete 5 dagen te laat</td>
+                <td>€2.75</td>
+                <td>Boete</td>
+            </tr>
+            <tr>
+                <td>01/07/2023</td>
+                <td>Maandelijkse kosten jongerenabonnement</td>
+                <td>€19.99</td>
+                <td>Abonnement</td>
+            </tr>
+            <tr>
+                <td>01/06/2023</td>
+                <td>Maandelijkse kosten jongerenabonnement</td>
+                <td>€19.99</td>
+                <td>Abonnement</td>
+
+
+            </tr>
+          </table>
+
+    </section>
 
 </body>
 </html>
@@ -37,6 +77,14 @@
     
     *{ margin: 0;
        font-family: poppins;
+    }
+
+    img{
+        height: 2rem;
+    }
+
+    section{
+        overflow-x: auto
     }
 
 
