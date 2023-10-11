@@ -12,7 +12,7 @@
 <body>
     MIJN OBA
 
-    {#each data.reservations as reservation}
+    {#each data.reservationsOld as reservation}
         <blockquote>
             <p>{reservation.userName}</p>
             <p>Your reservation id = {reservation.id}</p>
