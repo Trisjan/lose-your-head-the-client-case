@@ -80,32 +80,32 @@
 
 <style>
     :root{
-		 --oba__Primary__Rood: #FF2E17 ; 
-		 --oba__Primary__Wit: #ffff ;
-		 --oba__Primay__Zwart: #000000;
-		 --oba__Primay__Grijs: #9B9C9F;
-	 }
+		--oba__Primary__Rood: #FF2E17 ; 
+		--oba__Primary__Wit: #ffff ;
+		--oba__Primay__Zwart: #000000;
+		--oba__Primay__Grijs: #9B9C9F;
+	}
 
     .home-page{
         padding: 7rem ;
-     }
+    }
     .home-page__img{
     width: 300px;
     position: absolute;
     height: auto;
     right: 0;
     top: 0;
-  }
+}
 
 span {
     color: var(--oba__Primary__Rood);
 }
-     section{
+    section{
         display: flex;
         flex-direction: column;
         gap: 15rem;
         align-items: center;
-     }
+    }
 article a{
     text-decoration: none;
     color: var(--oba__Primary__Wit);
@@ -117,22 +117,22 @@ margin: 2rem 0 ;
 padding: 7rem;
 background-color: var(--oba__Primary__Wit);
 }
- .home-page__ebooks{
-   padding: 7rem;
- }
- aside{
-     display: grid;
+    .home-page__ebooks{
+    padding: 7rem;
+    }
+    aside{
+    display: grid;
     grid-template-columns: repeat(3, 1fr); /* 2 kolommen */
     grid-gap: .5rem; /* Ruimte tussen de afbeeldingen */
- }
- aside img {
+}
+    aside img {
     width: 70%;
     height: auto;
- }
+}
     @media (min-width: 68em){
     .home-page{
         padding: 0 7rem 7rem ;
-     }
+    }
     .home-page__img{
     width: 700px;
     position: absolute;
@@ -144,8 +144,8 @@ background-color: var(--oba__Primary__Wit);
     flex-direction: row;
     gap: 15rem;
     align-items: center;
-     }
-     
+    }
+    
     article h1{
         font-size: 2rem;
     }
