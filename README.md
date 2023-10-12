@@ -19,11 +19,13 @@ Het hoofddoel van dit project is om OBA-gebruikers een intuïtieve en gepersonal
 4. **Headless CMS:** Een headless Content Management System (CMS) wordt gebruikt voor het beheren van dynamische inhoud op de profielpagina.
 
 ##Technologieën
-**SvelteKit: **Een krachtig framework voor het bouwen van webapplicaties met een focus op snelheid en eenvoud.
+
+**SvelteKit:** Een krachtig framework voor het bouwen van webapplicaties met een focus op snelheid en eenvoud.
 
 **Hygraph:** Een technologie voor gegevensvisualisatie om gebruikers een overzichtelijke uitleengeschiedenis te bieden.
 
 ##Installatie
+
 Om dit project lokaal uit te voeren, volg je deze stappen:
 
 1. Kloon deze repository naar je lokale machine.
