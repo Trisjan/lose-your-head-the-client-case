@@ -26,48 +26,62 @@
 
     <section>
 
-        <table>
+          <table>
             <tr>
-              <th>DATUM</th>
-              <th>OMSCHRIJVING</th>
+              <th>SOORT BETALING</th>
+              <th>BETAALDATUM</th>
               <th>BEDRAG</th>
-              <th>TYPE</th>
+              <th>BETALINGSWIJZE</th>
+              <th>DETAILS</th>
             </tr>
+
+        <div> 
+
             <tr>
+              <td>Contributie</td>
               <td>01/08/2023</td>
-              <td>Maandelijkse kosten jongerenabonnement</td>
-              <td>€25.00</td>
-              <td>Abonnement</td>
+              <td>€19.99</td>
+              <td>PIN</td>
+              <td>7394628495</td>
             </tr>
             <tr>
+                <td>Betaling uit deposito</td>
                 <td>21/07/2023</td>
-                <td>Opwaardering pas</td>
-                <td>€19.99</td>
-                <td>Opwaardering</td>
+                <td>€25.00</td>
+                <td>PIN</td>
+                <td>9749937459</td>
               </tr>
             <tr>
-                <td>21/07/2023</td>
-                <td>Boete 5 dagen te laat</td>
-                <td>€2.75</td>
                 <td>Boete</td>
+                <td>21/07/2023</td>
+                <td>€2.75</td>
+                <td>Contant</td>
+                <td>3845928503</td>
             </tr>
             <tr>
-                <td>01/07/2023</td>
-                <td>Maandelijkse kosten jongerenabonnement</td>
-                <td>€19.99</td>
-                <td>Abonnement</td>
-            </tr>
-            <tr>
+                <td>Inschrijving</td>
                 <td>01/06/2023</td>
-                <td>Maandelijkse kosten jongerenabonnement</td>
-                <td>€19.99</td>
-                <td>Abonnement</td>
-
-
+                <td>€1.00</td>
+                <td>PIN</td>
+                <td>8648543578</td>
             </tr>
+            <tr>
+                <td>Verkopen</td>
+                <td>01/07/2023</td>
+                <td>€2.99</td>
+                <td>PIN</td>
+                <td>9537905742</td>
+            </tr>
+
+        </div>       
+
           </table>
 
     </section>
+
+    <article>
+        
+    </article>
 
 </body>
 </html>
@@ -79,6 +93,10 @@
        font-family: poppins;
     }
 
+    body{
+        background: #E4E9F7;
+    }
+
     img{
         height: 2rem;
     }
@@ -87,5 +105,15 @@
         overflow-x: auto
     }
 
+    div{
+        position: absolute;
+        background: white;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    td, th{
+        padding: 0 2rem  ;
+    }
 
 </style>
