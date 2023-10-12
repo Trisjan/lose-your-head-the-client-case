@@ -24,7 +24,7 @@ Het hoofddoel van dit project is om OBA-gebruikers een intuïtieve en gepersonal
 
 **Hygraph:** Een technologie voor gegevensvisualisatie om gebruikers een overzichtelijke uitleengeschiedenis te bieden.
 
-##I nstallatie
+## Installatie
 
 Om dit project lokaal uit te voeren, volg je deze stappen:
 
