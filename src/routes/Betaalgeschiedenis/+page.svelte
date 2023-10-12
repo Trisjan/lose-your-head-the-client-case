@@ -29,16 +29,13 @@
 
             <section>
             
-             <ul class="ul-titles">
+             <ul>
                  <li>SOORT BETALING</li>
                  <li>BETAALDATUM</li>
                  <li>BEDRAG</li>
                  <li>BETALINGSWIJZE</li>
                  <li>DETAILS</li>
-             </ul>
-             
-             <div>
-                 
+             </ul>     
              <ul>
                  <li>Contributie</li>
                  <li>01/08/2023</li>
@@ -75,9 +72,29 @@
                  <li>9537905742</li>
              </ul>
 
-             </div>     
-
             </section>
+
+            <div>
+
+            <article class="article-contact"> 
+                <h2>Vragen over uw betalingen?</h2>
+                <p class="p-contact">Onze klantenservice is bereikbaar op werkdagen van 9.00 tot 17.00 uur.</p>
+                <button>Contact</button>
+            </article>
+
+            <article class="depositos">
+                <h2>Deposito's</h2>
+                <p class="p-depositos">Hier kunt u via IDEAL tegoed op uw OBA-pas zetten.</p>
+                <p>Het bedrag hieronder geeft het huidige tegoed op uw pas aan</p>
+
+                <div class="tegoed">
+                    <h3>Tegoed</h3>
+                    <button>Toevoegen aan deposito</button>
+                </div>
+
+            </article>
+            </div>
+
                 
 </main>
 
@@ -88,7 +105,8 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap');
     
-    *{ margin: 0;
+    *{ 
+        margin: 0;
        font-family: poppins;
     }
 
@@ -98,12 +116,7 @@
 
     section{
         width: 60rem;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    main{
-        overflow-x: scroll;
+        margin-bottom: 3rem;
     }
 
     img{
@@ -111,23 +124,55 @@
     }
 
     ul{
-        display: inline-flex;
-        flex-direction: column;
-        /* display: flex;
-        justify-content: space-between; */
+        display: flex;
         list-style: none;
     }
 
-    .ul-titles{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    ul:not(:first-of-type){
+        background: white;
+    }
+
+    ul:nth-last-of-type(5){
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+
+    ul:last-of-type{
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    li{
+        padding: 0.5rem 0;
+        flex-basis: 100%;
     }
 
     div{
-       background: white;
-       border-radius: 1rem;
-       justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .article-contact{
+        width: 30rem;
+    }
+
+    .p-contact{
+        margin: 2rem 0;
+    }
+
+    button{
+        background: black;
+        color: white;
+        border: none;
+        padding: 0 1rem;
+    }
+
+    .p-depositos{
+        margin: 2rem 0 0 0;
+    }
+
+    .depositos p:last-of-type{
+        margin-bottom: 2rem;
     }
 
 </style>
