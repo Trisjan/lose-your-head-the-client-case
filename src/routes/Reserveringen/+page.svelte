@@ -1,65 +1,37 @@
-<section id="reserveringen">
+
 <h1> Mijn Reserveringen </h1>
 <p>Hier vind je jou reseveringslijst.</p>
 
-
+<section id="reserveringen">
 <div style="overflow-x:auto;">
   <table>
     <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
+      <th>Datum</th>
+      <th>Titel</th>
+      <th>Auteur</th>
+      <th>Soort</th>
+      <th>Beschikbaarheid</th>
     </tr>
     <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
+      <td>01/09/2023</td>
+      <td>Al die tijd / Rachael Lippincott en Mikki Daughtry</td>
+      <td>Rachael Lippincott, Mikki Daughtry</td>
+      <td>Boek</td>
+      <td>Niet beschikbaar</td>
     </tr>
     <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
+      <td>21/06/2023</td>
+      <td>Het leven van een loser/ Jeff Kinney</td>
+      <td>Jeff Kinney, Job Schuring</td>
+      <td>Boek</td>
+      <td>Niet beschikbaar</td>
     </tr>
     <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
+      <td>21/06/2023</td>
+      <td>Aristoteles & Dante duiken in de wateren van de wereld / Benjamin Alire Sáenz</td>
+      <td>Benjamin Alire Sáenz</td>
+      <td>Boek</td>
+      <td>Beschikbaar</td>
     </tr>
   </table>
 </div>
@@ -76,7 +48,4 @@
     border-radius: 10px;
 }
 
-td {
-    border-color: black;
-}
 </style>
