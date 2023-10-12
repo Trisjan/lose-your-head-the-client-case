@@ -42,7 +42,7 @@
 <body>
 	
 
-	 <nav class="sidebar">
+	<nav class="sidebar">
         <header>
             <div class="image-text">
                 <span class="image">
@@ -150,28 +150,28 @@
 
     </nav>
 <main>
-	 <slot />
+	<slot />
 </main>
 </body>
 </html>
- <style>
-	 :root{
-		 --oba__Primary__Rood: #FF2E17 ; 
-		 --oba__Primary__Wit: #ffff ;
-		 --oba__Primay__Zwart: #000000;
-		 --oba__Primay__Grijs: #9B9C9F;
-	 }
+<style>
+	:root {
+		--oba__Primary__Rood: #FF2E17;
+		--oba__Primary__Wit: #ffff;
+		--oba__Primay__Zwart: #0000;
+		--oba__Primay__Grijs: #9B9C9F;
+	}
 
-	 *{
+	* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-	 }
-	 body{
+	}
+	body{
 			overflow-x: hidden !important;
 			background-color: #E3E9F9;
-	 }
-     main{
+	}
+    main{
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -179,8 +179,8 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 		margin-top: 9rem;
-	     }
-	 .sidebar{
+	}
+	.sidebar{
     position: fixed;
     top: 0;
     left: 0;
@@ -441,10 +441,10 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--oba__Primay__Zwart);
 }
- @media (min-width: 68em){
+@media (min-width: 68em){
         main{
-		margin-left: 13rem;
+		margin-left: 15rem;
 		margin-top: 9rem;
-	     } 
- }
- </style>
+	} 
+}
+</style>
