@@ -1,4 +1,3 @@
-
 <h1> Mijn Reserveringen </h1>
 <p>Hier vind je jou reseveringslijst.</p>
 

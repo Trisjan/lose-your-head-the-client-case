@@ -1,63 +1,164 @@
-<nav>
-	<section class="menu-bar">
-	 <header class="menu-bar__user-info">
-	   <img src="/" alt="" class="menu-bar__user-info--img" width="60"
-	   height="60">
-	   <div class="menu-bar__user-info--text">
-	   <h3>user name</h3>
-	   <p>5 jaar lid</p>
-	   </div> 
-	 </header>
-	 <article class="menu-bar__search">
-		<input type="text" placeholder="Zoek...">
-	 </article>
-	 <article class="menu-bar__list">
-		 <ul>
-			 <li><a href="/Welkom"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg>
-			Welkom</a></li>
-			<li><a href="/Leeslijst"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Leeslijst</span></a></li>
-			<li><a href="/Uitleningen-en-verlengen"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Uitleningen en verlengen</span></a></li>
-			<li><a href="/Uitleengeschiedenis"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Uitleengeschiedenis</span></a></li>
-			<li><a href="/Betaalgeschiedenis"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Betaalgeschiedenis</span></a></li>
-			<li><a href="/Reserveringen"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Reserveringen</span></a></li>
-			<li><a href="/Desposito's"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Desposito's</span></a></li>
-			<li><a href="/Tellerstand-abonnement"><svg width="25" height="30" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M23.4363 0.000967777C23.0187 0.0155309 22.6166 0.16609 22.2888 0.430647L3.73307 15.3601C1.37798 17.2555 0 20.1519 0 23.2141V48.6667C0 50.4848 1.48364 52 3.26389 52H16.3194C18.0997 52 19.5833 50.4848 19.5833 48.6667V35.3336C19.5833 34.9403 19.8509 34.667 20.2361 34.667H26.7639C27.1491 34.667 27.4167 34.9403 27.4167 35.3336V48.6667C27.4167 50.4848 28.9003 52 30.6806 52H43.7361C45.5164 52 47 50.4848 47 48.6667V23.2141C47 20.1519 45.622 17.2555 43.2669 15.3601L24.7112 0.430647C24.3491 0.138486 23.8975 -0.013687 23.4363 0.000967777ZM23.5 4.54776L40.8445 18.5032C42.2599 19.6424 43.0833 21.375 43.0833 23.2141V48.0001H31.3333V35.3336C31.3333 32.7804 29.264 30.6671 26.7639 30.6671H20.2361C17.736 30.6671 15.6667 32.7804 15.6667 35.3336V48.0001H3.91667V23.2141C3.91667 21.375 4.74013 19.6424 6.15549 18.5032L23.5 4.54776Z" fill="black"/>
-			</svg><span> Tellerstand abonnement</span></a></li>
-		 </ul>
-	 </article>
-	 <article class="menu-bar__content">
-		 <ul>
-			 <li><a href="/Uitloggen">Uitloggen</a></li>
-			 <li><a href="/>Dark-mode">Dark mode</a></li>
-		 </ul>
- 
-	 </article>
-	</section> 
- </nav>
- <main>
- <slot />    
- </main>
- 
+<script>
+	import bookImage from '$lib/assets/boek-image.png'
+    import { onMount } from "svelte";
+
+    let darkMode = false;
+
+    onMount(() => {
+        const body = document.querySelector("body");
+        const sidebar = body.querySelector("nav");
+        const toggle = document.querySelector(".toggle");
+        const searchBtn = document.querySelector(".search-box input");
+        const modeSwitch = document.querySelector(".toggle-switch");
+        const modeText = document.querySelector(".mode-text");
+
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        });
+
+        searchBtn.addEventListener("focus", () => {
+            sidebar.classList.remove("close");
+        });
+
+        modeSwitch.addEventListener("click", () => {
+            body.classList.toggle("dark");
+            darkMode = !darkMode;
+
+            if (darkMode) {
+                modeText.innerText = "Light Mode";
+            } else {
+                modeText.innerText = "Dark Mode";
+            }
+        });
+    });
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mijn OBA</title>
+</head>
+<body>
+	
+
+	 <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="{bookImage}" alt="Gebruiker-foto">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">User Name </span>
+                    <span class="profession">5 jaar lid</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Zoek...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="/">
+                            <i class='bx bx-home icon'></i>
+                            <span class="text nav-text">Welkom</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/leeslijst">
+                            <i class='bx bx-list-ul icon'></i>
+                            <span class="text nav-text">Leeslijst</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/uitleningen-en-verlengen">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text-long nav-text">Uitleningen en verlengen</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/uitleengeschiedenis">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Uitleengeschiedenis</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/betaalgeschiedenis">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Betaalgeschiedenis</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/reserveringen">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Reserveringen</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/desposito's">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Desposito's</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/tellerstand-abonnement">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Tellerstand abonnement</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="/uitloggen">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Uitloggen</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+<main>
+	 <slot />
+</main>
+</body>
+</html>
  <style>
 	 :root{
 		 --oba__Primary__Rood: #FF2E17 ; 
 		 --oba__Primary__Wit: #ffff ;
-		 --oba__Primay__Zwart: #0000;
+		 --oba__Primay__Zwart: #000000;
 		 --oba__Primay__Grijs: #9B9C9F;
 	 }
 
@@ -66,76 +167,284 @@
 		padding: 0;
 		box-sizing: border-box;
 	 }
+	 body{
+			overflow-x: hidden !important;
+			background-color: #E3E9F9;
+	 }
      main{
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-		margin-left: 13rem;
-		overflow-x: hidden;
-     }
-	 nav{
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 13rem;
-		padding: 1rem 1.4rem;
-		background: var(--oba__Primary__Wit);
-		transition: all 0.3s ease;
-		/* z-index: 100;   */
-	 }
-	 nav li{
-		display: flex;
-		list-style: none;
-		height: 3.2rem;
-		align-items: center;
-		margin-top: 10px;
-	 }
-	 .menu-bar__user-info{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	 }
-	 .menu-bar__user-info img{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	 }
-	 .menu-bar__user-info--text{
-		display: flex;
-		flex-direction: column;
-	 }
-	 .menu-bar__search{
-		margin: 1rem 0;
-	 }
-	 .menu-bar__search input{
-		width: 100%;
-		padding: .5rem;
-	 }
-	 .menu-bar__list svg{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 1.2rem;
-		width: 2rem;
-	 }
+		margin-top: 9rem;
+	     }
+	 .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background: var(--oba__Primary__Wit);
+    z-index: 100;  
+}
+.sidebar .close{
+    width: 88px;
+}
+/* ===== Reusable code - Here ===== */
+.sidebar li{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
 
-	 .menu-bar__list a{
-		display: flex;
-		align-items: center;
-		list-style: none;
-		background-color: transparent;
-		height: 100%;
-		width: 100%;
-		border-radius: 1rem;
-		text-decoration: none;
-	 }
-	 .menu-bar__user-info img{
-	 	border-radius: 10rem;
-	 }
+.sidebar header .image,
+.sidebar .icon{
+    min-width: 60px;
+    border-radius: 6px;
+}
+
+.sidebar .icon{
+    min-width: 60px;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .text,
+.sidebar .icon{
+    color: var(--oba__Primay__Zwart);
+}
+
+.sidebar .text{
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+}
+.sidebar.close .text{
+    opacity: 0;
+}
+
+.sidebar .text-long,
+.sidebar .icon{
+    color: var(--oba__Primay__Zwart);
+}
+
+.sidebar .text-long{
+    resize: none;
+    opacity: 1;
+}
+.sidebar.close .text-long{
+    resize: none;
+    opacity: 0;
+}
+
+/* =========================== */
+
+.sidebar header{
+    position: relative;
+}
+
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+}
+.sidebar header .logo-text{
+    display: flex;
+    flex-direction: column;
+}
+header .image-text .name {
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+header .image-text .profession{
+    margin-top: -2px;
+    display: block;
+}
+
+.sidebar header .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar header .image img{
+    width: 3rem;
+	height: 3rem;
+    border-radius: 180px;
+}
+
+.sidebar header .toggle{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 25px;
+    width: 25px;
+    background-color: var(--oba__Primary__Rood);
+    color: var(--oba__Primay__Zwart);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+body.dark .sidebar header .toggle{
+    color: var(--oba__Primay__Zwart);
+}
+
+.sidebar.close .toggle{
+    transform: translateY(-50%) rotate(0deg);
+}
+
+.sidebar .menu{
+    margin-top: 18px;
+}
+
+.sidebar li.search-box{
+    border-radius: 6px;
+    background-color: #E3E9F9;
+    cursor: pointer;
+}
+
+.sidebar li.search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #E3E9F9;
+    color: var(--oba__Primary__Zwart);
+    border-radius: 6px;
+}
+.sidebar li a{
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.sidebar li a:hover{
+    background-color: var(--oba__Primary__Rood);
+}
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+    color: var(--oba__Primary__Wit);
+}
+body.dark .sidebar li a:hover .icon,
+body.dark .sidebar li a:hover .text{
+    color: var(--oba__Primay__Grijs);
+}
+
+.sidebar .menu-bar{
+    height: calc(100% - 55px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+.menu-bar::-webkit-scrollbar{
+    display: none;
+}
+.sidebar .menu-bar .mode{
+    border-radius: 6px;
+    background-color: #E3E9F9;
+    position: relative;
+}
+
+.menu-bar .mode .sun-moon{
+    height: 50px;
+    width: 60px;
+}
+
+.mode .sun-moon i{
+    position: absolute;
+}
+.mode .sun-moon i.sun{
+    opacity: 0;
+}
+body.dark .mode .sun-moon i.sun{
+    opacity: 1;
+}
+body.dark .mode .sun-moon i.moon{
+    opacity: 0;
+}
+
+.menu-bar .bottom-content .toggle-switch{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.toggle-switch .switch{
+    position: relative;
+    height: 22px;
+    width: 40px;
+    border-radius: 25px;
+    background-color: var(--oba__Primay__Grijs);
+}
+
+.switch::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    background-color: var(--oba__Primary__Wit);
+    transition: var(--tran-04);
+}
+
+body.dark .switch::before{
+    left: 20px;
+}
+
+.home{
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    background-color: var(--oba__Primary__Rood);
+    transition: var(--tran-05);
+}
+.home .text{
+    color: var(--oba__Primay__Zwart);
+    padding: 12px 60px;
+}
+
+.sidebar.close ~ .home{
+    left: 78px;
+    height: 100vh;
+    width: calc(100% - 78px);
+}
+body.dark .home .text{
+    color: var(--oba__Primay__Zwart);
+}
+ @media (min-width: 68em){
+        main{
+		margin-left: 13rem;
+		margin-top: 9rem;
+	     } 
+ }
  </style>
