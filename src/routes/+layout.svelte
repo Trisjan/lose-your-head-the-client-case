@@ -89,21 +89,21 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="/uitleengeschiedenis">
+                        <a href="/Uitleengeschiedenis">
                             <i class='bx bx-bell icon'></i>
                             <span class="text nav-text">Uitleengeschiedenis</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="/betaalgeschiedenis">
+                        <a href="/Betaalgeschiedenis">
                             <i class='bx bx-pie-chart-alt icon' ></i>
                             <span class="text nav-text">Betaalgeschiedenis</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="/reserveringen">
+                        <a href="/Reserveringen">
                             <i class='bx bx-heart icon' ></i>
                             <span class="text nav-text">Reserveringen</span>
                         </a>
