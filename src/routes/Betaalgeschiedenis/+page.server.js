@@ -1,17 +1,18 @@
-// import { gql } from 'graphql-request'
-// import { hygraph } from '$lib/utils/hygraph.js'
+  // import { gql } from "graphql-request";
+  // import { hygraph } from "$lib/utils/hygraph.js";
 
-// export async function load() {
-//   let query = gql`
-//   query reservations {
-//     reservations {
-//       obaId
-//       userName
-//       id
-//       date
-//     }
-//   }
-// `
+  // export async function load() {
+  //   let query = gql`
+  //     query MyQuery {
+  //       payments(where: {}) {
+  //         type
+  //         date
+  //         amount
+  //         paymentMethod
+  //         details
+  //       }
+  //     }
+  //   `;
 
-//   return await hygraph.request(query)
-// }
+  //   return await hygraph.request(query);
+  // }
