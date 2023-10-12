@@ -17,7 +17,7 @@
 </div>
 
     <section class="tellerstand-page__details">
-        <h2>Details</h2>
+        <h2>GROEPSOVERZICHT</h2>
        <table>
         <tr>
             <th>GROEPSNAAM</th>
@@ -42,6 +42,53 @@
             <td>9</td>		
             <td>€ 1684,44</td>
             <td>3</td>
+        </tr>
+        </table>
+    </section>
+
+
+        <section class="tellerstand-page__details">
+        <h2>DETAILS</h2>
+       <table>
+        <tr>
+            <th>BARCODE</th>
+            <th>TRANSACTIE</th>		
+            <th>TRANSACTIE DATUM</th>
+            <th>DATUM RETOUR</th>
+            <th>TITEL</th>
+            <th>MATERIAAL</th>
+            <th>LOCATIE</th>
+            <th>SOORTEENHEID</th>
+        </tr>
+        <tr>
+            <td>100064478392</td>
+            <td>Uitlenen</td>		
+            <td>23 aug 2022</td>
+            <td>23 aug 2022</td>
+            <td>Rachael Lippincott, Mikki Daughtry</td>
+            <td>DVDSPM</td>
+            <td>Oosterdok</td>
+            <td>DVDSPM teller leenpas+</td>
+        </tr>
+        <tr>
+            <td>100064478392</td>
+            <td>Uitlenen</td>		
+            <td>23 aug 2022</td>
+            <td>23 aug 2022</td>
+            <td>Rachael Lippincott, Mikki Daughtry</td>
+            <td>DVDSPM</td>
+            <td>Oosterdok</td>
+            <td>DVDSPM teller leenpas+</td>
+        </tr>
+        <tr>
+            <td>100064478392</td>
+            <td>Uitlenen</td>		
+            <td>23 aug 2022</td>
+            <td>23 aug 2022</td>
+            <td>Rachael Lippincott, Mikki Daughtry</td>
+            <td>DVDSPM</td>
+            <td>Oosterdok</td>
+            <td>DVDSPM teller leenpas+</td>
         </tr>
         </table>
     </section>
@@ -75,7 +122,7 @@
 } 
 .tellerstand-page__header article:nth-child(1){
     display: flex;
-    background: linear-gradient(90deg,#ff2e17 0%,rgb(255 61 36 / 46%) 50%,#ff2e17 100%);
+    background: linear-gradient(90deg,#9b9c9f 0%,rgb(155 156 159 / 46%) 50%,#9b9c9f 100%);
     width: 20rem;
     height: 10rem;
     text-align: center;
@@ -86,7 +133,8 @@
 } 
 .tellerstand-page__header article > em{
     font-size:3rem;
-    color: var(--oba__Primary__Wit)
+    color: var(--oba__Primary__Zwart);
+    font-weight: 800;
 }
 .tellerstand-page__details{
     padding-top: 7rem;
@@ -98,8 +146,10 @@
     width: 80%;
 }
 .tellerstand-page__details th{
+  font-size: 14px;
   text-align: left;
  color: var(--oba__Primay__Grijs);
+ padding: 0 1.5rem;
 }
 .tellerstand-page__details td{
 background-color: white;
