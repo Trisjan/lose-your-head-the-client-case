@@ -443,7 +443,7 @@ body.dark .home .text{
 }
  @media (min-width: 68em){
         main{
-		margin-left: 13rem;
+		margin-left: 15rem;
 		margin-top: 9rem;
 	     } 
  }
